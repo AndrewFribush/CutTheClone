@@ -16,6 +16,7 @@
 		81ECEC801AEDD99500EC3C89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81ECEC7E1AEDD99500EC3C89 /* LaunchScreen.xib */; };
 		81ECEC8C1AEDD99500EC3C89 /* CutTheCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ECEC8B1AEDD99500EC3C89 /* CutTheCloneTests.swift */; };
 		81ECEC961AEDDB9000EC3C89 /* RopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ECEC951AEDDB9000EC3C89 /* RopeNode.swift */; };
+		81ECEC981AEDDBEA00EC3C89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ECEC971AEDDBEA00EC3C89 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		81ECEC8A1AEDD99500EC3C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81ECEC8B1AEDD99500EC3C89 /* CutTheCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutTheCloneTests.swift; sourceTree = "<group>"; };
 		81ECEC951AEDDB9000EC3C89 /* RopeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RopeNode.swift; sourceTree = "<group>"; };
+		81ECEC971AEDDBEA00EC3C89 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				81ECEC711AEDD99500EC3C89 /* AppDelegate.swift */,
 				81ECEC731AEDD99500EC3C89 /* GameScene.sks */,
 				81ECEC751AEDD99500EC3C89 /* GameScene.swift */,
+				81ECEC971AEDDBEA00EC3C89 /* Constants.swift */,
 				81ECEC771AEDD99500EC3C89 /* GameViewController.swift */,
 				81ECEC951AEDDB9000EC3C89 /* RopeNode.swift */,
 				81ECEC791AEDD99500EC3C89 /* Main.storyboard */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81ECEC981AEDDBEA00EC3C89 /* Constants.swift in Sources */,
 				81ECEC761AEDD99500EC3C89 /* GameScene.swift in Sources */,
 				81ECEC961AEDDB9000EC3C89 /* RopeNode.swift in Sources */,
 				81ECEC781AEDD99500EC3C89 /* GameViewController.swift in Sources */,
